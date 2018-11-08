@@ -1,0 +1,20 @@
+{
+    "name": "doozz/say-hi",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yasuo",
+            "email": "yasuo@gaoding.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": { "hello\\": "src" }
+    }
+
+}
